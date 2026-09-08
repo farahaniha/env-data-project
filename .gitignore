@@ -1,0 +1,106 @@
+# ==========================================
+# Python & Jupyter
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Jupyter runtime
+*.nbconvert.ipynb
+
+# Python environment
+.env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Data files (prevent large uploads)
+# ==========================================
+
+# Raw data — keep only sample files
+00_data/raw/*.csv
+00_data/raw/*.xlsx
+00_data/raw/*.xls
+00_data/raw/*.json
+00_data/raw/*.zip
+00_data/raw/*.gz
+
+# Cleaned data — exclude large files
+00_data/cleaned/*.csv
+00_data/cleaned/*.xlsx
+
+# Dashboard data (Power BI uses these)
+02_visualization/dashboard_data/*.csv
+02_visualization/dashboard_data/*.xlsx
+
+# ==========================================
+# Power BI
+# ==========================================
+
+# Power BI temporary files
+*.pbix
+*.pbit
+*.ds
+
+# ==========================================
+# System files
+# ==========================================
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+*.swp
+*.swo
+
+# ==========================================
+# IDE & Editor files
+# ==========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Logs & temporary files
+# ==========================================
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# ==========================================
+# OS-specific
+# ==========================================
+
+# Any file ending with ~ (backup)
+*~
